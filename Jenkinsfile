@@ -7,8 +7,8 @@ pipeline {
     booleanParam(name: 'autoApprove', defaultValue: false, description: 'Automatically run apply after generating plan?')
   }
   environment {
-    AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+    AWS_ACCESS_KEY_ID = credentials('AKIA22C76ONRH7YC36OU')
+    AWS_SECRET_ACCESS_KEY = credentials('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')
     TF_IN_AUTOMATION = '1'
   }
   stages {
